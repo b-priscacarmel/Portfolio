@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chocolate Cake Recipe</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer ></script>
+    </head>
+
+    <body>
+        <div class="recipe-card">
+            <h1 class="title">Chocolate Cake !</h1>
+            <img src="choo.jpeg" alt="Cake made by Chocolate" class="dish-image">
+            
+            <div class="info">
+                <p><strong>Prep Time:</strong> 50 min</p>
+                <p><strong>Servings:</strong> 5 Plates </p>
+            </div>
+            
+            <!--Ingrediiii-->
+            <button id = "toggle-ingredients">Show Ingredients</button>
+            <ul id="ingredients" class="hidden">
+                 <li>2 cups flour</li>
+                 <li>1 cup sugar</li>
+                 <li>1/2 cup cocoa powder</li>
+                 <li>2 eggs</li>
+                 <li>1 cup milk</li>
+            </ul>
+
+            <!--steps-->
+            <button id="start-cooking">Start Cooking</button>
+            <ol id="steps">
+                <li>Preheat oven to 180°C.</li>
+                <li>Mix flour, sugar, and cocoa.</li>
+                <li>Add eggs and milk, stir well.</li>
+                <li>Pour into pan and bake for 30 mins.</li>
+                <li>Let it cool and serve.</li>
+            </ol>
+
+            <!--progrss bar-->
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+
+        </div>
+    </body>
+
+</html>
