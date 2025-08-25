@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editkaro.in | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Editkaro<span>.in</span></div>
+      <ul class="nav-links">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>We Create <span>Impactful Visual Stories</span></h1>
+      <p>Social Media Marketing | Video Editing | Creative Ads</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Filters -->
+  <section id="portfolio" class="portfolio-section">
+  <h2 class="section-title">Our Work</h2>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="short">Short-form</button>
+    <button class="filter-btn" data-filter="gaming">Gaming</button>
+    <button class="filter-btn" data-filter="ads">Ads</button>
+    <button class="filter-btn" data-filter="anime">Anime</button>
+    <button class="filter-btn" data-filter="football">Football</button>
+  </div>
+
+  <!-- Video Grid -->
+  <div class="portfolio-grid">
+    <!-- Short-form video -->
+    <div class="portfolio-item" data-category="short">
+      <video src="https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4" controls></video>
+
+    </div>
+
+    <!-- Gaming video -->
+    <div class="portfolio-item" data-category="gaming">
+      <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+
+    </div>
+
+    <!-- Anime video -->
+    <div class="portfolio-item" data-category="anime">
+      <video src="https://cdn.pixabay.com/video/2019/04/16/22834-332833933_tiny.mp4" controls></video>
+
+    </div>
+
+    <!-- Ads video -->
+    <div class="portfolio-item" data-category="ads">
+      <video src="https://cdn.pixabay.com/video/2021/01/14/63155-499459774_tiny.mp4" controls></video>
+
+    </div>
+
+    <!-- Football video -->
+    <div class="portfolio-item" data-category="football">
+  <video src="https://cdn.pixabay.com/video/2017/08/25/11767-228276234_tiny.mp4" controls></video>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about-section">
+  <h2 class="section-title">About Us</h2>
+  <div class="about-container">
+    <div class="about-text">
+      <p>
+        At <strong>Editkaro.in</strong>, we don’t just edit videos – we create experiences.  
+        From <b>short-form viral reels</b> to <b>cinematic ads</b>,  
+        we specialize in transforming raw footage into powerful stories that connect.Whether it’s gaming, anime, eCommerce, or documentary-style content,  
+        our team brings creativity, precision, and passion to every project.  
+      </p>
+
+    </div>
+    <div class="about-img">
+      <img src="edu.jpg" alt="Editkaro Team" />
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+  <div class="contact-cards">
+    <div class="contact-card">
+      <h3>Email</h3>
+      <p><a href="mailto:contact@editkaro.in">contact@editkaro.in</a></p>
+    </div>
+    <div class="contact-card">
+      <h3>Instagram</h3>
+      <p><a href="https://instagram.com/editkaro.in" target="_blank">@editkaro.in</a></p>
+    </div>
+    <div class="contact-card">
+      <h3>Phone</h3>
+      <p>+91 98765 43210</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <video id="lightbox-video" controls autoplay></video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
